@@ -23,7 +23,7 @@ def bot():
 
 		time.sleep(10)
 		print('ligando openai')
-		openai.api_key = "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"
+		openai.api_key = "SUA-CHAVE-API-OPENAI"
 
 		response = openai.Completion.create(
 		  model="text-davinci-003",
